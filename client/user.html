@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/cs-logo.png">
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <script src="./assets/index.js" defer></script>
+    <title>Community Share</title>
+</head>
+<body>
+     <!-- Navigation-->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a href="./index.html"><img src="./assets/images/cs-logo.png" alt="Logo"></a>
+            <a class="navbar-brand" href="./index.html">Community Share</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./community.html">Community Outreach</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./social.html">Social Posts</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./news.html">News Feed</a></li>
+                        </ul>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-dark"><a href="./user.html">User</a></button>
+                    <button class="btn btn-outline-dark"><a href="./login.html" id="loggout">Log out</a></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">Share more, connect more</h1>
+                <p class="lead fw-normal text-white-50 mb-0">Together we can build a stronger community.</p>
+            </div>
+        </div>
+    </header>
+    
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+            <h3>Add New Item</h3>
+                <form class="add-item-form">
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input type="text" class="form-control" id="title-value">
+                    </div>
+                    <div class="form-item form-item-no-grow">
+                        <label>Picture</label>
+                        <input type="file" name="cover" class="image-cover filepond">
+                      </div></br>
+                    <div class="form-group">
+                        <label for="content">Content</label>
+                        <textarea class="form-control" id="content-value"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Price</label>
+                        <input type="text" class="form-control" id="price-value">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Item</button>
+                </form><br>
+
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <div class="item-list row ">
+                        <!--<div class="card mt-4 col-md-6 bg-ligt">
+                            <div class="card-body">
+                                <h5 class="item-title">Item Title</h5>
+                                <h6 class="item-subtitle mb-2 text-muted">Item subtitle</h6>
+                                <p class="item-text">Some quick example text to build on the item title and make up the bulk cof the item's content.</p>
+                                <a href="#" class="card-link">Update</a>
+                                <a href="#" class="card-link">Delete</a>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white"> &copy; 2023 Community Share</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

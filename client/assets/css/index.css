@@ -1,0 +1,77 @@
+/* Login Page & Register Page */
+#login-box, #register-box {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #aaa;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #398378;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #398357;
+  }
+
+  /* Main Page */
+  .navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar img {
+    float: left;
+    height: 50px;
+    padding: 10px;
+  }
+ 
+  .navbar input[type=text] {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: #bbbbbb;
+  }
+
+  .user-icon {
+    float: right;
+    height: 50px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-icon img {
+    float: right;
+  }
